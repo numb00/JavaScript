@@ -28,3 +28,25 @@ const myFucntion = function(){
     console.log("Hello Wolrd");
 }
 console.log(typeof scoreValue);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive), Heap (Non-Primitive)
+let myYoutubename = "sagar"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne={
+    email :"hello@gmail.com",
+    UIP:"user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "sagar@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
